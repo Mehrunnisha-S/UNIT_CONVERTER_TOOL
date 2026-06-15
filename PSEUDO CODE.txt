@@ -1,0 +1,75 @@
+PSEUDO CODE…
+
+STEP 1→ START 
+STEP 2→DISPLAYING the CONVERSION MENU..
+             1. KM to Meter
+             2. Meter to KM
+             3.meter to CM
+             4.CM to meter
+             5.liter to ML
+             6. ML to liter
+             7.KG to Gram
+             8.Gram to KG
+             9.Celsius to Fahrenheit
+             10.Fahrenheit to Celsius
+STEP 3→asking the USER to SELECT the choice (1-10)
+STEP 4→GET/READ the choice VALUE from the USER
+STEP 5→perfoming the calculation
+              Read Choice  
+  
+IF Choice = 1  
+    Read Kilometer  
+    Meter = Kilometer × 1000  
+    Display Meter  
+  
+ELSE IF Choice = 2  
+    Read Meter  
+    Kilometer = Meter ÷ 1000  
+    Display Kilometer 
+
+ELSE IF choice = 3
+    Read Meter
+    Centimeter = Meter × 100
+    Display Centimeter
+
+ELSE IF choice = 4
+     Read Centimeter
+     Meter = centimeter ÷ 100
+     Display Meter
+  
+ELSE IF Choice = 5  
+    Read Liter  
+    Milliliter = Liter × 1000  
+    Display Milliliter  
+  
+ELSE IF Choice = 6 
+    Read Milliliter  
+    Liter = Milliliter ÷ 1000  
+    Display Liter  
+  
+ELSE IF Choice = 7  
+    Read Kilogram  
+    Gram = Kilogram × 1000  
+    Display Gram  
+  
+ELSE IF Choice = 8  
+    Read Gram  
+    Kilogram = Gram ÷ 1000  
+    Display Kilogram  
+  
+ELSE IF Choice = 9 
+    Read Celsius  
+    Fahrenheit = (Celsius × 9/5) + 32  
+    Display Fahrenheit  
+  
+ELSE IF Choice = 10  
+    Read Fahrenheit  
+    Celsius = (Fahrenheit - 32) × 5/9  
+    Display Celsius  
+  
+ELSE  
+    Display "Invalid Choice" 
+
+STEP 6→display the calculation RESULT
+STEP 7→ask if the USER want another conversion
+STEP 8 → STOP
