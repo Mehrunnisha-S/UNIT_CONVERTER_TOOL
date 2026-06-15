@@ -1,0 +1,9 @@
+ALGORITHM..
+STEP 1→ start the program
+STEP 2→Display the conversion menu
+STEP 3→Ask the user to choose the conversion choices
+STEP 4→get the choice value from the user
+STEP 5→perform the conversion calculation
+STEP 6→display the calculation result
+STEP 7→Ask if the user want another conversion
+STEP 8→Stop the program
